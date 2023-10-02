@@ -1,0 +1,92 @@
+.section {
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  background-position: center;
+  @media (max-width: 1000px) {
+    padding-bottom: 200px;
+  }
+  @media (max-width: 600px) {
+    padding-bottom: 100px;
+  }
+}
+.home {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("https://i.ibb.co/Thm4MVW/main.jpg");
+  z-index: -1;
+}
+
+.desserts {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("https://i.ibb.co/3rsgDmP/main-des.jpg");
+}
+
+.cakes {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("https://i.ibb.co/S7sQ4jr/31.webp");
+}
+
+.allcakes {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("https://i.ibb.co/Mhq9P8q/main-cake.jpg");
+}
+
+.bento {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("https://i.ibb.co/DVxTQbj/bento4-4.webp");
+}
+
+.macarons {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("https://i.ibb.co/gR5ztb4/main.jpg");
+  @media (max-width: 638px) {
+  }
+}
+
+.info {
+  padding-top: 10px;
+  padding-bottom: 42px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1.5;
+  opacity: 1;
+  color: #fff;
+
+  h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+
+    @media (max-width: 453px) {
+      font-size: 10px;
+    }
+  }
+
+  h3 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    @media (max-width: 453px) {
+      font-size: 20px;
+    }
+  }
+}
