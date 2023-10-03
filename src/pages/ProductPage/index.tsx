@@ -6,10 +6,10 @@ import { useNavigate, useParams } from "react-router-dom";
 import DessertsOptions from "../../components/DessertOptions";
 import CakesOptions from "../../components/CakeOptions";
 import BentoOptions from "../../components/BentoOptions";
-import { useDispatch, useSelector } from "react-redux";
-import { AddToCart, selectCart } from "../../redux/Cart/Slice";
+import { useDispatch } from "react-redux";
+import { AddToCart} from "../../redux/Cart/Slice";
 
-type ItemType = {
+export type ItemType = {
   id: string;
   title: string;
   subtitle: string;
