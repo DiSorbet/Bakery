@@ -5,11 +5,11 @@ import {
   AiOutlinePlus,
 } from "react-icons/ai";
 import {
-  CartItemType,
   RemoveProduct,
   IncreaseAmount,
   DecreaseAmount,
 } from "../../redux/Cart/Slice";
+import { CartItemType } from "../../redux/Cart/Cart.types";
 import { useDispatch } from "react-redux";
 
 const CartItem = ({

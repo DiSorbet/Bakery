@@ -1,4 +1,3 @@
-import { ItemType } from "../../pages/ProductPage";
 import { BentoProps } from "./Bento.types";
 
 const BentoOptions = ({ setBento, cream, biscuit }: BentoProps) => {

@@ -1,5 +1,5 @@
 import React from "react";
-import ImgSkeleton from './ImgSkeleton'
+import ImgSkeleton from './Skeleton'
 
 type LazyImageProps = {
   setSwitchImg: React.Dispatch<React.SetStateAction<boolean>>;
